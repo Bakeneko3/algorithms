@@ -1,0 +1,19 @@
+@"
+# IDE
+.idea/
+*.iml
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Прочее
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
